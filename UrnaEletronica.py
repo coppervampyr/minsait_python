@@ -11,7 +11,7 @@ class UrnaEletronica:
     def inserir_candidato(self, nome_candidato, partido):
         self.candidatos.append({"nome_candidato": nome_candidato, "partido": partido}) 
 
-    def remover_ultimo_funcionario(self):
+    def remover_ultimo_candidato(self):
         self.candidatos.pop()
     
     def atualizar_candidato(self, index, chave, valor): 
